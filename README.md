@@ -15,16 +15,25 @@ In your web page:
 <script src="dist/aspectratio.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+  $.aspectratio(); 
+  /**
+   * runs on the window (viewport)
+   * returns { dec: "decimal ratio", height: "y aspect ratio", width: "x aspect ratio" }
+   */
+  $("selector").aspectratio();
+  /**
+   * runs on the selector element
+   * returns { dec: "decimal ratio", height: "y aspect ratio", width: "x aspect ratio" }
+   */
 });
 </script>
 ```
 
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
 ## Release History
-_(Nothing yet)_
+_0.2.0_
+* Changed to a grunt based project
+* Added basic assertion tests
+* Converted to full jquery plugin
+
+_0.1.0_
+* Initial release
