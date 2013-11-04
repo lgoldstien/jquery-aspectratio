@@ -1,0 +1,27 @@
+{
+  "name": "aspectratio",
+  "title": "jQuery-AspectRatio",
+  "description": "Get the apsect ratio of the viewport using a jquery module.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/lgoldstien/jquery-aspectratio",
+  "author": {
+    "name": "Lawrence Goldstien",
+    "email": "lgoldstien@onmylemon.co.uk",
+    "url": "http://onmylemon.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgoldstien/jquery-aspectratio.git"
+  },
+  "bugs": "https://github.com/lgoldstien/jquery-aspectratio/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lgoldstien/jquery-aspectratio/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
